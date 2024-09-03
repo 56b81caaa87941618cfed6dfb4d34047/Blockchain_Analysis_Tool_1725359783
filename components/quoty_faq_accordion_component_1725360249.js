@@ -6,7 +6,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 
 <template>
   <section class="py-8 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+    <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Blockchain Analysis App</h2>
     <!-- Accordion -->
     <div class="space-y-3">
       <!-- Accordion item -->
@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       terms: [
-        { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-        { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-        { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-        { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false }
+        { title: "What types of blockchain data can this app analyze?", description: "Our app can analyze a wide range of blockchain data, including transaction histories, smart contract interactions, token transfers, and emerging trends across various blockchain networks.", expanded: false },
+        { title: "How up-to-date is the blockchain information provided?", description: "Our app provides near real-time analysis of blockchain data, with new information being processed and added to our database within minutes of occurring on the blockchain.", expanded: false },
+        { title: "Can I customize the analysis for specific blockchain projects or tokens?", description: "Yes, our app offers customizable analysis options. You can focus on specific blockchain networks, projects, or tokens to get tailored insights and reports relevant to your interests or business needs.", expanded: false },
+        { title: "Is the app suitable for both beginners and experienced blockchain analysts?", description: "Absolutely! Our app is designed with an intuitive interface for beginners, while also offering advanced features and in-depth analysis tools for experienced users and professional blockchain analysts.", expanded: false }
       ]
     };
   },
